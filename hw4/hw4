@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1 style="margin-left:700px">sign up</h1>
+<style>
+    div{
+        margin-left: 675px;
+        margin-top: 15px;
+    }
+</style>
+<div>
+    <input  type="text" placeholder="請輸入帳戶"/><br/><br/>
+    <input  type="password" placeholder="請輸入密碼"/><br/><br/>
+    <input  type="password" placeholder="請再次輸入密碼"/><br/><br/>
+    <input  type="text" placeholder="請輸入gmail"/><br/><br/>
+    <input  type="checkbox"/><br/><br/>
+    <p>I agree all statements in Terms of service</p>
+    <button style="background-color:red">submit</button>
+</div>
+<br/>
+
+</body>
+</html>
