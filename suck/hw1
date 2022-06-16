@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>冉光博的個人網站</title>
+</head>
+<body>
+
+<h1>冉光博</h1>
+<p>學號:111010528</p>
+<p>生日:92/4/9</p>
+<p>聯絡方式:0984327881</p>
+<h2>就讀學校</h2>
+<p>吳興國小</p>
+<p>興雅國中</p>
+<p>內湖高中</p>
+<p>金門大學資工系</p>
+<a href="https://www.w3schools.com/">學習html的網站</a>
+
+</body>
+</html>
