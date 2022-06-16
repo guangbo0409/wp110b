@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC>
+<html lang="zh-TW">
+<head>
+<title>Apex</title>
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-1.11.1.js
+"></script>
+	<script>
+		$(function(){
+			$("#b1").click(function(){
+				 $("body").animate({scrollTop: $("#p1").offset().top - 100}, 500);
+			});
+			$("#b2").click(function(){
+				 $("body").animate({scrollTop: $("#p2").offset().top - 100}, 500);
+			});
+			$("#b3").click(function(){
+				 $("body").animate({scrollTop: $("#p3").offset().top - 100}, 500);
+			});
+			$("#b4").click(function(){
+				 $("body").animate({scrollTop: $("#p4").offset().top - 100}, 500);
+			});
+			$("#b5").click(function(){
+				 $("body").animate({scrollTop: $("#p5").offset().top - 100}, 500); 
+			});
+			$("#b6").click(function(){
+				 $("body").animate({scrollTop: $("#p6").offset().top - 100}, 500); 
+			});
+			$("#b7").click(function(){
+				 $("body").animate({scrollTop: $("#p7").offset().top - 100}, 500); 
+			});
+		});
+	</script>
+	<style>
+	<!--要記得放方框留白邊-->
+	#all{
+		width:800px;
+		margin:0px auto;
+	}
+	#header{
+		height:150px;
+		width:800x;
+		background-image:url('123.jpg');
+		<!--background-color:#FF8888;-->
+	}
+	#wrapper{
+		float:left;
+		width:100%;
+		text-align:center;
+	}
+	#side{
+		float:left;
+		width:220px;
+		background-color:#cecece;
+		<!--選單-->
+	}
+	#main{
+		margin-left:220px;
+		text-align:center;
+		background-color:#fffaf3;
+	}
+	#footer{
+		clear:both;
+		height:50px;
+		background-color:orange;
+		<!--參考資料.網址.製作人姓名-->
+	}
+	.ttp{
+	 font-family: '微軟正黑體', 'arial black', sans-serif;
+	 color: black;
+	 text-align: center;
+	 text-shadow:
+	 -2px -2px 0 #FFF,
+	 2px -2px 0 #FFF,
+	 -2px 2px 0 #FFF,
+	 2px 2px 0 #FFF,
+	 4px 4px 4px white;
+	 line-height:40px;
+	 }
+	.ttp2{
+	 font:italic 20px/20px;
+	 font-family:"標楷體 ";
+	 color:black;
+	 text-align:center;
+	 text-shadow:3px 4px 5px white;
+	 margin-top:0px;
+	 }
+	.button1{
+	 display:inline-block;
+	 padding:10px 20px;
+	 margin:5px;
+	 font-size:20px;
+	 background-color:white;
+	 color:black;
+	 border:2px orange solid;
+	 border-radius:10px;
+	 transition:0.5s;
+	 }
+	.button1:hover{
+	 background-color:pink;
+	 color:blue;
+	 cursor:pointer;
+	}
+	.md{
+	 margin:0px;
+	 padding:0px;
+	 }
+	h2{
+	 display:inline-block;
+	 background-color:white;
+	 border:4px red double;
+	 border-radius:10px;
+	 font-family:"微軟正黑體";
+	 margin:0px;
+	 }
+	h3{
+	 margin:0px;
+	 font-family:"標楷體";
+	 }
+	</style>
+</head>
+<body>
+	<div id="all">
+		<div id="header">
+			<div style="height:150x;text-align:center;line-height:30px;">
+				<h1 class="ttp" id="t1">Apex Legends<br>
+				</h1>
+			</div>
+		</div>
+		<div id="side">
+			<ul>
+			<button class="button1" id="b1">apex </button></a><br>
+			<button class="button1" id="b2">apex歷史</button></a><br>
+			<button class="button1" id="b3">apex支援平台</button></a><br>
+			<button class="button1" id="b4">下載位置</button></a><br>
+			<button class="button1" id="b5">地圖介紹</button></a><br>
+			</ul>
+		</div>
+		<div id="main">
+			<ul class="md" id="m1">
+				<div style="background-color:orange;margin:0px;"><h1 class="ttp2" id="t1">Apex</h1>
+				</div>
+				<h3>《Apex 英雄》，是一個由Respawn Entertainment開發，由美商藝電發行的免費大逃殺類多人線上角色扮演第一人稱射擊遊戲，沿用《泰坦降臨系列》的世界觀。
+				</h3>
+			</ul>
+			<div id="p1">
+				<ul class="md" id="m2">
+					<div style="background-color:orange;margin:0px;"><h1 class="ttp" id="t1"><h1 class="ttp2" id="t2">Apex歷史</h1></div>
+					<h3>《Apex 英雄》適用經典的大逃殺遊戲規則，但加入了英雄射擊，由三名玩家組成的小隊使用具有獨特能力的角色，稱為「傳奇」。 遊戲背景設定在《泰坦降臨2》的18年以後（約2715－2734年）。 遊戲中並不會出現泰坦，但包含了很多《泰坦降臨系列》的元素丶特徵和彩蛋。</h3>
+				</ul>
+			</div>
+			<div id="p2">
+				<ul class="md" id="m3">
+					<div style="background-color:orange;"><h1 class="ttp" id="t1"><h1 class="ttp2" id="t3">支援平台</h1>
+					</div>
+					<h3>
+						你可以在 PlayStation®4、PlayStation®5、Xbox One、 Xbox Series X|S、Nintendo Switch、PC Origin 與 Steam 上免費*下載並遊玩《Apex 英雄》。
+					</h3>
+				</ul>
+			</div>
+			<div id="p3">
+				<ul class="md" id="m4">
+					<div style="background-color:orange;"><h1 class="ttp" id="t1"><h1 class="ttp2" id="t4">下載位置</h1>
+					</div>
+					<h3>
+						https://www.ea.com/zh-tw/games/apex-legends/about
+
+	
+				
+					</h3>
+				</ul>
+			</div>
+			<div id="p4">
+				<ul class="md" id="m5">
+					<div style="background-color:orange;"><h1 class="ttp" id="t1"><h1 class="ttp2" id="t5">本季牌位地圖</h1>
+					</div>
+					<h2>風暴點</h2>
+					<h3>
+						風暴點位於蓋亞星球上，是被遺忘已久的IMC 研究基地，現在成為了Apex Games 的所在地。 這是我們至今最大的地圖，比之前的的最大地圖「世界邊緣」還大了約15%。 其包含多種不同的地點，從熱帶島嶼再到大型山地滑道，讓你可以獲得比之前的地圖更精彩的體驗。
+					</h3>
+
+					<p align="center">
+						<marquee behavior="alternate" width="300" height="225"
+						onmouseover="this.stop()" onmouseout="this.start()">
+						<a href="https://images.app.goo.gl/FiHwdsPMydGRaYeq9" target="_blank">
+						<img border="0" src="https://images.app.goo.gl/FiHwdsPMydGRaYeq9"
+						width="300" height="225"></a>
+						<a href="https://images.app.goo.gl/FQiME4BbpQQVdwn59" target="_blank">
+						<img border="0" src="https://images.app.goo.gl/FQiME4BbpQQVdwn59"
+						width="300" height="225"></a>
+						<a href="https://images.app.goo.gl/FQiME4BbpQQVdwn59" target="_blank">
+						<img border="0" src="https://images.app.goo.gl/FQiME4BbpQQVdwn59"
+						width="300" height="225"></a>
+						<a href="https://images.app.goo.gl/FiHwdsPMydGRaYeq9" target="_blank">
+						<img border="0" src="https://images.app.goo.gl/FiHwdsPMydGRaYeq9"
+						width="300" height="225"></a>
+						</marquee>
+					</p>
+		
